@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0873969d-e10c-42ea-86d5-4e3101f9d2e4" name="Katsiaryna_Turkova@EPBYMINW08F6 2023-02-05 20:21:45" runUser="MINSK\Katsiaryna_Turkova" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-02-05T20:21:45.2868385+04:00" queuing="2023-02-05T20:21:45.2868385+04:00" start="2023-02-05T20:21:42.4487926+04:00" finish="2023-02-05T20:21:52.5652561+04:00" />
+  <TestSettings name="default" id="5ba721ef-0131-4140-8ef8-9cd2d87f8f99">
+    <Deployment runDeploymentRoot="Katsiaryna_Turkova_EPBYMINW08F6_2023-02-05_20_21_45" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9d7e1312-0d11-4b6a-986e-bb305f1ef17f" testId="4c38ebbd-b552-42e9-abb9-466a6deb4d46" testName="MSTestAbsPositiveInt" computerName="EPBYMINW08F6" duration="00:00:00.0001506" startTime="2023-02-05T20:21:49.3433137+04:00" endTime="2023-02-05T20:21:49.3443112+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d7e1312-0d11-4b6a-986e-bb305f1ef17f">
+      <CollectorDataEntries>
+        <Collector agentName="EPBYMINW08F6" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="60f30330-3f2b-44d5-8903-16e6ce439bc8" testId="edecd560-ced0-4dad-a508-5273983f8d5f" testName="MSTestAbsNegativeInt" computerName="EPBYMINW08F6" duration="00:00:00.0001360" startTime="2023-02-05T20:21:45.7193957+04:00" endTime="2023-02-05T20:21:45.7193957+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60f30330-3f2b-44d5-8903-16e6ce439bc8">
+      <CollectorDataEntries>
+        <Collector agentName="EPBYMINW08F6" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="04a9300a-7d70-4e7c-8702-0d980c59bf5b" testId="52a59a06-632c-40dc-a099-67dc612de183" testName="MSTestAbsPositiveDouble" computerName="EPBYMINW08F6" duration="00:00:00.0068878" startTime="2023-02-05T20:21:48.1148525+04:00" endTime="2023-02-05T20:21:48.1228312+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04a9300a-7d70-4e7c-8702-0d980c59bf5b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;9.9&gt;. Actual:&lt;10&gt;. </Message>
+          <StackTrace>   at UnitTestProject.MSTestAbs.MSTestAbsPositiveDouble() in C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\MSTestAbs.cs:line 41&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="EPBYMINW08F6" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="129a2ddc-e182-40aa-b1e5-f542a0e10ac8" testId="1764a81e-7f64-4bf9-a64e-eb232429ccf0" testName="MSTestAbsNegativeString" computerName="EPBYMINW08F6" duration="00:00:00.0002202" startTime="2023-02-05T20:21:46.9154645+04:00" endTime="2023-02-05T20:21:46.9164664+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="129a2ddc-e182-40aa-b1e5-f542a0e10ac8">
+      <CollectorDataEntries>
+        <Collector agentName="EPBYMINW08F6" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c5c99f31-e602-4477-b524-600aa2eec4a9" testId="6d01522e-8259-4f54-8cb7-9a05af7b4d1a" testName="MSTestAbsNegativeDouble" computerName="EPBYMINW08F6" duration="00:00:00.2441478" startTime="2023-02-05T20:21:44.4727836+04:00" endTime="2023-02-05T20:21:44.7790720+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5c99f31-e602-4477-b524-600aa2eec4a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3.6&gt;. Actual:&lt;4&gt;. </Message>
+          <StackTrace>   at UnitTestProject.MSTestAbs.MSTestAbsNegativeDouble() in C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\MSTestAbs.cs:line 50&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="EPBYMINW08F6" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="68621e20-a38c-454a-bc8a-554c3d41ed3b" testId="a22db740-665c-46e7-9fb0-3be8492b1023" testName="MSTestAbsPositiveString" computerName="EPBYMINW08F6" duration="00:00:00.0001686" startTime="2023-02-05T20:21:50.5703845+04:00" endTime="2023-02-05T20:21:50.5713689+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68621e20-a38c-454a-bc8a-554c3d41ed3b">
+      <CollectorDataEntries>
+        <Collector agentName="EPBYMINW08F6" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="EPBYMINW08F6\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MSTestAbsNegativeInt" storage="c:\users\katsiaryna_turkova\documents\projects\unittesting\unittestproject\unittestproject\bin\debug\unittestproject.dll" id="edecd560-ced0-4dad-a508-5273983f8d5f">
+      <Execution id="60f30330-3f2b-44d5-8903-16e6ce439bc8" />
+      <TestMethod codeBase="C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\bin\Debug\UnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject.MSTestAbs" name="MSTestAbsNegativeInt" />
+    </UnitTest>
+    <UnitTest name="MSTestAbsPositiveString" storage="c:\users\katsiaryna_turkova\documents\projects\unittesting\unittestproject\unittestproject\bin\debug\unittestproject.dll" id="a22db740-665c-46e7-9fb0-3be8492b1023">
+      <Execution id="68621e20-a38c-454a-bc8a-554c3d41ed3b" />
+      <TestMethod codeBase="C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\bin\Debug\UnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject.MSTestAbs" name="MSTestAbsPositiveString" />
+    </UnitTest>
+    <UnitTest name="MSTestAbsPositiveDouble" storage="c:\users\katsiaryna_turkova\documents\projects\unittesting\unittestproject\unittestproject\bin\debug\unittestproject.dll" id="52a59a06-632c-40dc-a099-67dc612de183">
+      <Execution id="04a9300a-7d70-4e7c-8702-0d980c59bf5b" />
+      <TestMethod codeBase="C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\bin\Debug\UnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject.MSTestAbs" name="MSTestAbsPositiveDouble" />
+    </UnitTest>
+    <UnitTest name="MSTestAbsPositiveInt" storage="c:\users\katsiaryna_turkova\documents\projects\unittesting\unittestproject\unittestproject\bin\debug\unittestproject.dll" id="4c38ebbd-b552-42e9-abb9-466a6deb4d46">
+      <Execution id="9d7e1312-0d11-4b6a-986e-bb305f1ef17f" />
+      <TestMethod codeBase="C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\bin\Debug\UnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject.MSTestAbs" name="MSTestAbsPositiveInt" />
+    </UnitTest>
+    <UnitTest name="MSTestAbsNegativeDouble" storage="c:\users\katsiaryna_turkova\documents\projects\unittesting\unittestproject\unittestproject\bin\debug\unittestproject.dll" id="6d01522e-8259-4f54-8cb7-9a05af7b4d1a">
+      <Execution id="c5c99f31-e602-4477-b524-600aa2eec4a9" />
+      <TestMethod codeBase="C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\bin\Debug\UnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject.MSTestAbs" name="MSTestAbsNegativeDouble" />
+    </UnitTest>
+    <UnitTest name="MSTestAbsNegativeString" storage="c:\users\katsiaryna_turkova\documents\projects\unittesting\unittestproject\unittestproject\bin\debug\unittestproject.dll" id="1764a81e-7f64-4bf9-a64e-eb232429ccf0">
+      <Execution id="129a2ddc-e182-40aa-b1e5-f542a0e10ac8" />
+      <TestMethod codeBase="C:\Users\Katsiaryna_Turkova\Documents\Projects\UnitTesting\UnitTestProject\UnitTestProject\bin\Debug\UnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject.MSTestAbs" name="MSTestAbsNegativeString" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4c38ebbd-b552-42e9-abb9-466a6deb4d46" executionId="9d7e1312-0d11-4b6a-986e-bb305f1ef17f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edecd560-ced0-4dad-a508-5273983f8d5f" executionId="60f30330-3f2b-44d5-8903-16e6ce439bc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52a59a06-632c-40dc-a099-67dc612de183" executionId="04a9300a-7d70-4e7c-8702-0d980c59bf5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1764a81e-7f64-4bf9-a64e-eb232429ccf0" executionId="129a2ddc-e182-40aa-b1e5-f542a0e10ac8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d01522e-8259-4f54-8cb7-9a05af7b4d1a" executionId="c5c99f31-e602-4477-b524-600aa2eec4a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a22db740-665c-46e7-9fb0-3be8492b1023" executionId="68621e20-a38c-454a-bc8a-554c3d41ed3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="EPBYMINW08F6" outcome="Warning" timestamp="2023-02-05T20:21:43.0918336+04:00">
+        <Text>Data collection : Unable to find a datacollector with friendly name 'Code Coverage'.</Text>
+      </RunInfo>
+      <RunInfo computerName="EPBYMINW08F6" outcome="Warning" timestamp="2023-02-05T20:21:43.0918336+04:00">
+        <Text>Data collection : Could not find data collector 'Code Coverage'</Text>
+      </RunInfo>
+      <RunInfo computerName="EPBYMINW08F6" outcome="Error" timestamp="2023-02-05T20:21:52.4555893+04:00">
+        <Text>Aborting test run: test run timeout of 10000 milliseconds exceeded.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
